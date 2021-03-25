@@ -11,10 +11,10 @@
 #include <stdio.h>
 int main() 
 {
-	char str1[50], str2[50];
-	int i;
-	scanf("%s",str1);
-	for (i=0;i<50;i++)                  //Complete the code in for-loop & copy logic
+	     char str1[50], str2[50];
+       int i;
+	     scanf("%s",str1);
+       for (i=0;i<50;i++)                  //Complete the code in for-loop & copy logic
   {                          
 		str2[i]=str1[i];
 	}
