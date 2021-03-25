@@ -15,7 +15,7 @@ int main()
   int i; // Declare the required variables
     printf("Enter a string: ");
     scanf("%s",str);
-    for(i=0; str[i]!='\0'; ++i);
+    for(i=0; str[i]!='\0'; ++i)
        printf("The length of string =" );
        printf("%d",i);
        //Complete the missing code in result printing statement
