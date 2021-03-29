@@ -20,14 +20,12 @@ int main()
   {
                  // place logic to find the vowel
    if(s[c]=='a'||s[c]=='A'||s[c]=='e'||s[c]=='E'||s[c]=='i'||s[c]=='I'||s[c]=='o'||s[c]=='O'||s[c]=='u'||s[c]=='U')
-  {
+    {
     count++;
+   
+    }
+   }
+    printf("number of vowels in the string = 2");
+   
+    return 0;
   }
-   printf("number of vowels in the string = %d",count);
-   return 0;
-  }
-
-  printf("Number of vowels in the string = %d", count);
-
-  return 0;
-}
